@@ -10,8 +10,8 @@ export default class App {
 
 
     render(){
-        this.el.append(`
+        this.el.innerHTML = `
             <h1>Приложение запущено!</h1>
-        `);
+        `;
     }
 }
